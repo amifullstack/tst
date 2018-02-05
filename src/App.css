@@ -1,0 +1,233 @@
+*{
+  box-sizing: border-box;
+}
+
+body{
+  margin: 0;
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #333;
+  overflow-x: hidden;
+}
+
+.v-header {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  color: #fff;
+}
+
+.container {
+  max-width: 900px;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  margin: auto;
+  text-align: center;
+}
+.fullscreen-video-wrap {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.fullscreen-video-wrap video {
+  min-width: 100%;
+  min-height: 100vh;
+}
+
+.header-overlay {
+  height: 100vh;
+  width: 100vw;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: #225470;
+  z-index: 1;
+  opacity: 0.85;
+}
+.header-content {
+  z-index: 2;
+}
+
+.header-content h1 {
+  font-size: 25px;
+  margin-bottom: 0;
+}
+
+.header-content p {
+  padding-bottom: 2rem;
+}
+
+.btn {
+  background: rgb(22, 135, 150);
+  color: white;
+  font-size: 1.2rem;
+  padding: 1rem 1rem;
+  text-decoration: none;
+}
+@media (max-width:960px) {
+  .container {
+    padding-right: 3rem;
+    padding-left: 3rem;
+  }
+
+}
+
+/*Main*/
+body {
+  font-size: 17px;
+  line-height: 1.5em;
+  margin: 0;
+  padding: 0;
+}
+
+/* Common Classes*/
+.primary-text {
+  background: rgb(25, 152, 97);
+  color: white;
+  padding: 5px;
+  border-radius: 10px;
+}
+
+/*Logo*/
+.logo {
+  background: rgb(25, 152, 97);
+  color: white;
+  padding: 5px;
+  border-radius: 10px;
+}
+
+/*mid-content*/
+.mid-content {
+  margin-top: 15%;
+}
+
+/* HEADER */
+#main-header {
+  border-bottom: 1px solid rgb(25, 152, 97);
+}
+
+/* Nav-Bar*/
+#navbar {
+  text-transform: capitalize;
+}
+#navbar li {
+  display: inline;
+  padding-right: 20px;
+  list-style: none;
+
+}
+
+#navbar a {
+  text-decoration: none;
+  color: rgb(223, 42, 118);
+  font-size: 18px;
+}
+
+#navbar li.current a, #navbar a:hover {
+  color: rgb(25, 152, 97);
+  border-bottom: 3px solid rgb(25, 152, 97);
+  padding-bottom: 3px;
+}
+
+
+.company {
+  background: #333;
+  color: white;
+}
+
+.company h1 {
+  text-transform: capitalize;
+  color: rgb(68, 226, 157);
+
+}
+
+.company ul {
+  list-style: none;
+  padding: 0;
+}
+
+.company input[type="text"] {
+  padding: 7px;
+}
+
+.company button {
+  color: white;
+  background: rgb(15, 47, 71);
+  padding: 10px;
+  border: 0;
+}
+
+.company li {
+  line-height: 1.5em;
+}
+
+#main-footer {
+  background: rgb(67, 99, 84);
+  color: white;
+}
+
+
+/*CONTACT*/
+.contact form {
+  background: rgb(85, 85, 93);
+  color: white;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+
+/*ICON*/
+.fa-steam {
+    color: rgb(34, 170, 113);
+    font-size: 2.9rem;
+  }
+
+.contact form input[type="text"] {
+  width: 50%;
+  height: 30px;
+  margin-bottom: 10px;
+}
+
+.contact form textarea {
+  width: 50%;
+  height: 100px;
+}
+
+.contact form button {
+  width: 50%;
+  border: 0;
+  color: white;
+  background: rgb(210, 27, 93);
+  padding: 10px;
+}
+
+.contact form label {
+  text-transform: capitalize;
+}
+
+
+img {
+  width: 100%;
+  margin-top: 5px;
+}
+
+.icoimg{
+  position: relative;
+
+}
+.center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: rgb(223, 42, 118);
+    font-size: 1.5rem;
+}
+
+.container {
+  margin: auto;
+}
